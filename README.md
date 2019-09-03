@@ -13,7 +13,7 @@ Syahrizal Akbar
 ## OSG 05 Eudeka!
 Kelas belajar flutter basic
 
-## {{nama_kelas}}
+## Eudeka! OSG 05
 Dengan jangka waktu lebih kurang 2 bulan, peserta diharapkan dapat membuat aplikasi android dengan flutter.
 
 ## Cara Mendaftar OSG 05
