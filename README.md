@@ -1,23 +1,23 @@
-# {{nama_project}} ( {{kode_tugas}} )
-{{tentang_project}}.
+# kemerdekaan_indonesia ( Tugas 2 )
+UI dengan tema Kemerdekaan Indonesia.
 
 ## Screenshot
-{{screenshot_project}}.
+![Cuplikan](cuplikan.png)
 
 ## Built With
-{{teknologi_digunakan}}
+Flutter
 
 ## Created By
-{{nama_peserta}}
+Syahrizal Akbar
 
-## {{jenis_kelas}} Eudeka!
-{{tentang_kelas}}.
+## OSG 05 Eudeka!
+Kelas belajar flutter basic
 
 ## {{nama_kelas}}
-Dengan jangka waktu lebih kurang {{waktu_kelas}}, peserta diharapkan dapat {{tujuan_kelas}}.
+Dengan jangka waktu lebih kurang 2 bulan, peserta diharapkan dapat membuat aplikasi android dengan flutter.
 
-## Cara Mendaftar {{jenis_kelas}}
-{{cara_daftar}}.
+## Cara Mendaftar OSG 05
+Melalui website Eudeka.
 
 ## Info Lebih Lengkap
 Website : [www.eudeka.id](https://www.eudeka.id).  
