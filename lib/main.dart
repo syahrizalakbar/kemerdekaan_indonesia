@@ -23,6 +23,7 @@ class Merdeka extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       appBar: AppBar(
         title: Text('Kemerdekaan Indonesia'),
       ),
@@ -58,54 +59,10 @@ class Merdeka extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: <Widget>[
-                  Column(
-                    children: <Widget>[
-                      Icon(
-                        Icons.share,
-                        color: Colors.red,
-                      ),
-                      Text(
-                        'Bagikan',
-                        style: TextStyle(fontSize: 12),
-                      )
-                    ],
-                  ),
-                  Column(
-                    children: <Widget>[
-                      Icon(
-                        Icons.thumb_up,
-                        color: Colors.red,
-                      ),
-                      Text(
-                        'Suka',
-                        style: TextStyle(fontSize: 12),
-                      )
-                    ],
-                  ),
-                  Column(
-                    children: <Widget>[
-                      Icon(
-                        Icons.pan_tool,
-                        color: Colors.red,
-                      ),
-                      Text(
-                        'Partisipasi',
-                        style: TextStyle(fontSize: 12),
-                      )
-                    ],
-                  ),
-                  Column(
-                    children: <Widget>[
-                      Icon(
-                        Icons.explore,
-                        color: Colors.red,
-                      ),
-                      Text(
-                        'Jelajahi',
-                        style: TextStyle(fontSize: 12),
-                      )
-                    ],
-                  ),
+                  menuBawah(Icons.share, 'Bagikan'),
+                  menuBawah(Icons.thumb_up, 'Suka'),
+                  menuBawah(Icons.pan_tool, 'Partisipasi'),
+                  menuBawah(Icons.explore, 'Jelajahi'),
                 ],
               ),
             ),
@@ -131,4 +88,20 @@ class Merdeka extends StatelessWidget {
       ),
     );
   }
+}
+
+/// Dont repeat yourself
+Column menuBawah(IconData icon, String teks) {
+  return Column(
+    children: <Widget>[
+      Icon(
+          icon,
+          color: Colors.red,
+        ),
+        Text(
+          teks,
+          style: TextStyle(fontSize: 12),
+        )
+    ],
+  );
 }
