@@ -27,7 +27,12 @@ class Merdeka extends StatelessWidget {
       appBar: AppBar(
         title: Text('Kemerdekaan Indonesia'),
         actions: <Widget>[
-          Icon(Icons.bookmark_border)
+          IconButton(
+            icon: Icon(Icons.bookmark_border),
+            onPressed: () {
+              print('Tertekan');
+            },
+          )
         ],
       ),
       body: SingleChildScrollView(
